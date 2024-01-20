@@ -1,6 +1,6 @@
-// routes/authRoutes.js
+ 
 const express = require('express');
-const { hashPassword, generateToken } = require('../auth');
+const {   generateToken } = require('../auth');
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 const bcrypt = require('bcryptjs');
